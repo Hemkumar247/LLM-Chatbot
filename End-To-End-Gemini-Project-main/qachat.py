@@ -5,7 +5,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("AIzaSyARfMwr6GwOOi6YkGFLVoJaYvHRhSDRqZc"))
+genai.configure(api_key=os.getenv<"Your_GeminiPro_API_Key">)
 
 ## function to load Gemini Pro model and get repsonses
 model=genai.GenerativeModel("gemini-pro") 
